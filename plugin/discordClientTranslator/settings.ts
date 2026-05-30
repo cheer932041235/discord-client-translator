@@ -10,7 +10,7 @@ export const settings = definePluginSettings({
   apiKey: {
     type: OptionType.STRING,
     description: "DeepSeek API Key",
-    default: "sk-616e08504001455ab50a08fd6405812c"
+    default: ""
   },
   apiBaseUrl: {
     type: OptionType.STRING,
