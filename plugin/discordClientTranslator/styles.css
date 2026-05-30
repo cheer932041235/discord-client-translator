@@ -1,0 +1,59 @@
+.dct-accessory {
+  display: block;
+  margin-top: 0.35rem;
+  padding: 0.42rem 0.56rem;
+  border-left: 3px solid #5865f2;
+  border-radius: 5px;
+  background: rgba(35, 37, 41, 0.96);
+  color: #f2f3f5;
+  white-space: break-spaces;
+  line-height: 1.45;
+  font-size: 0.95em;
+}
+
+.dct-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.45rem;
+  padding: 0 0.28rem;
+  border-radius: 3px;
+  background: #5865f2;
+  color: #ffffff;
+  font-size: 0.78em;
+  font-weight: 600;
+}
+
+.dct-text {
+  color: #f2f3f5;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.dct-muted {
+  color: #dbdee1;
+  font-size: 0.95em;
+}
+
+.dct-error {
+  color: #ffb4b4;
+  border-left-color: #f23f42;
+}
+
+.dct-actions {
+  display: inline-flex;
+  gap: 0.45rem;
+  margin-left: 0.6rem;
+}
+
+.dct-action {
+  all: unset;
+  color: var(--text-link);
+  cursor: pointer;
+  font-size: 0.88em;
+}
+
+.dct-action:hover,
+.dct-action:focus {
+  text-decoration: underline;
+}

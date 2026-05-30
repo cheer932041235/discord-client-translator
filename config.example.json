@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3789
+  },
+  "deepseek": {
+    "baseUrl": "https://api.deepseek.com",
+    "chatPath": "/v1/chat/completions",
+    "apiKeyEnv": "DEEPSEEK_API_KEY",
+    "model": "deepseek-v4-flash",
+    "timeoutMs": 20000,
+    "temperature": 0.2,
+    "topP": 0.8,
+    "mock": false
+  },
+  "translation": {
+    "targetLanguage": "中文",
+    "minEnglishChars": 8,
+    "maxChars": 2000,
+    "concurrency": 6,
+    "cache": true,
+    "fileCache": true
+  }
+}
