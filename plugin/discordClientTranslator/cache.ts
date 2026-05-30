@@ -23,6 +23,12 @@ export function clearCachedTranslation(hash: string) {
   cache.delete(hash);
 }
 
+export function clearAllCache() {
+  const size = cache.size;
+  cache.clear();
+  return size;
+}
+
 export function getInflightTranslation(hash: string) {
   return inflight.get(hash);
 }
